@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		447EEE84AEB746EC9FD827BC /* Pods_mySwiftCoinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65F6D87368672D3CB0F7E8DA /* Pods_mySwiftCoinTests.framework */; };
+		D48C43B3064FE09829CE8742 /* Pods_mySwiftCoin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FE0B2EB697F37841D29F600 /* Pods_mySwiftCoin.framework */; };
+		F339EFDECBA42A3B79D80E14 /* Pods_mySwiftCoin_mySwiftCoinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4618AA9476366669D85658FB /* Pods_mySwiftCoin_mySwiftCoinUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16C3E73B3004D22A008A9E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C3E71C3004D229008A9E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C3E7233004D229008A9E4D;
+			remoteInfo = mySwiftCoin;
+		};
+		16C3E7453004D22A008A9E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16C3E71C3004D229008A9E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16C3E7233004D229008A9E4D;
+			remoteInfo = mySwiftCoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16C3E7243004D229008A9E4D /* mySwiftCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mySwiftCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C3E73A3004D22A008A9E4D /* mySwiftCoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySwiftCoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C3E7443004D22A008A9E4D /* mySwiftCoinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mySwiftCoinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4618AA9476366669D85658FB /* Pods_mySwiftCoin_mySwiftCoinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwiftCoin_mySwiftCoinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		49A5BD8B4B8B0E4015D2A2C6 /* Pods-mySwiftCoinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoinTests.debug.xcconfig"; path = "Target Support Files/Pods-mySwiftCoinTests/Pods-mySwiftCoinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		65F6D87368672D3CB0F7E8DA /* Pods_mySwiftCoinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwiftCoinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80E3F1890A95BD22DD2F60C8 /* Pods-mySwiftCoin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoin.debug.xcconfig"; path = "Target Support Files/Pods-mySwiftCoin/Pods-mySwiftCoin.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE0B2EB697F37841D29F600 /* Pods_mySwiftCoin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mySwiftCoin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFBE382E0337A95B4ECD1DA4 /* Pods-mySwiftCoinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoinTests.release.xcconfig"; path = "Target Support Files/Pods-mySwiftCoinTests/Pods-mySwiftCoinTests.release.xcconfig"; sourceTree = "<group>"; };
+		C51A99A8F7BCC315685DFAF7 /* Pods-mySwiftCoin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoin.release.xcconfig"; path = "Target Support Files/Pods-mySwiftCoin/Pods-mySwiftCoin.release.xcconfig"; sourceTree = "<group>"; };
+		C890867917EE0E428FAE05E4 /* Pods-mySwiftCoin-mySwiftCoinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoin-mySwiftCoinUITests.release.xcconfig"; path = "Target Support Files/Pods-mySwiftCoin-mySwiftCoinUITests/Pods-mySwiftCoin-mySwiftCoinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F9864C85AA9D53BAC4868C9C /* Pods-mySwiftCoin-mySwiftCoinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mySwiftCoin-mySwiftCoinUITests.debug.xcconfig"; path = "Target Support Files/Pods-mySwiftCoin-mySwiftCoinUITests/Pods-mySwiftCoin-mySwiftCoinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		16C3E74C3004D22A008A9E4D /* Exceptions for "mySwiftCoin" folder in "mySwiftCoin" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 16C3E7233004D229008A9E4D /* mySwiftCoin */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		16C3E7263004D229008A9E4D /* mySwiftCoin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				16C3E74C3004D22A008A9E4D /* Exceptions for "mySwiftCoin" folder in "mySwiftCoin" target */,
+			);
+			path = mySwiftCoin;
+			sourceTree = "<group>";
+		};
+		16C3E73D3004D22A008A9E4D /* mySwiftCoinTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mySwiftCoinTests;
+			sourceTree = "<group>";
+		};
+		16C3E7473004D22A008A9E4D /* mySwiftCoinUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = mySwiftCoinUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C3E7213004D229008A9E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D48C43B3064FE09829CE8742 /* Pods_mySwiftCoin.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7373004D22A008A9E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				447EEE84AEB746EC9FD827BC /* Pods_mySwiftCoinTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7413004D22A008A9E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F339EFDECBA42A3B79D80E14 /* Pods_mySwiftCoin_mySwiftCoinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03D641CF2A123FBAC118ED58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80E3F1890A95BD22DD2F60C8 /* Pods-mySwiftCoin.debug.xcconfig */,
+				C51A99A8F7BCC315685DFAF7 /* Pods-mySwiftCoin.release.xcconfig */,
+				F9864C85AA9D53BAC4868C9C /* Pods-mySwiftCoin-mySwiftCoinUITests.debug.xcconfig */,
+				C890867917EE0E428FAE05E4 /* Pods-mySwiftCoin-mySwiftCoinUITests.release.xcconfig */,
+				49A5BD8B4B8B0E4015D2A2C6 /* Pods-mySwiftCoinTests.debug.xcconfig */,
+				AFBE382E0337A95B4ECD1DA4 /* Pods-mySwiftCoinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		16C3E71B3004D229008A9E4D = {
+			isa = PBXGroup;
+			children = (
+				16C3E7263004D229008A9E4D /* mySwiftCoin */,
+				16C3E73D3004D22A008A9E4D /* mySwiftCoinTests */,
+				16C3E7473004D22A008A9E4D /* mySwiftCoinUITests */,
+				16C3E7253004D229008A9E4D /* Products */,
+				03D641CF2A123FBAC118ED58 /* Pods */,
+				B5AA99CFE1567B9406A87262 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		16C3E7253004D229008A9E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C3E7243004D229008A9E4D /* mySwiftCoin.app */,
+				16C3E73A3004D22A008A9E4D /* mySwiftCoinTests.xctest */,
+				16C3E7443004D22A008A9E4D /* mySwiftCoinUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5AA99CFE1567B9406A87262 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FE0B2EB697F37841D29F600 /* Pods_mySwiftCoin.framework */,
+				4618AA9476366669D85658FB /* Pods_mySwiftCoin_mySwiftCoinUITests.framework */,
+				65F6D87368672D3CB0F7E8DA /* Pods_mySwiftCoinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C3E7233004D229008A9E4D /* mySwiftCoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C3E74D3004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoin" */;
+			buildPhases = (
+				FEE002B14E8D76F8B16B9328 /* [CP] Check Pods Manifest.lock */,
+				16C3E7203004D229008A9E4D /* Sources */,
+				16C3E7213004D229008A9E4D /* Frameworks */,
+				16C3E7223004D229008A9E4D /* Resources */,
+				3237A5F2EF105F5CA2E92770 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				16C3E7263004D229008A9E4D /* mySwiftCoin */,
+			);
+			name = mySwiftCoin;
+			productName = mySwiftCoin;
+			productReference = 16C3E7243004D229008A9E4D /* mySwiftCoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16C3E7393004D22A008A9E4D /* mySwiftCoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C3E7523004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoinTests" */;
+			buildPhases = (
+				4098E633DF52764FE10A21E2 /* [CP] Check Pods Manifest.lock */,
+				16C3E7363004D22A008A9E4D /* Sources */,
+				16C3E7373004D22A008A9E4D /* Frameworks */,
+				16C3E7383004D22A008A9E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C3E73C3004D22A008A9E4D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16C3E73D3004D22A008A9E4D /* mySwiftCoinTests */,
+			);
+			name = mySwiftCoinTests;
+			productName = mySwiftCoinTests;
+			productReference = 16C3E73A3004D22A008A9E4D /* mySwiftCoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16C3E7433004D22A008A9E4D /* mySwiftCoinUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C3E7553004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoinUITests" */;
+			buildPhases = (
+				603C2689642D7C91CCBD4709 /* [CP] Check Pods Manifest.lock */,
+				16C3E7403004D22A008A9E4D /* Sources */,
+				16C3E7413004D22A008A9E4D /* Frameworks */,
+				16C3E7423004D22A008A9E4D /* Resources */,
+				A146EC60FEF965CEC1124F0F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16C3E7463004D22A008A9E4D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16C3E7473004D22A008A9E4D /* mySwiftCoinUITests */,
+			);
+			name = mySwiftCoinUITests;
+			productName = mySwiftCoinUITests;
+			productReference = 16C3E7443004D22A008A9E4D /* mySwiftCoinUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C3E71C3004D229008A9E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2660;
+				LastUpgradeCheck = 2660;
+				TargetAttributes = {
+					16C3E7233004D229008A9E4D = {
+						CreatedOnToolsVersion = 26.6;
+					};
+					16C3E7393004D22A008A9E4D = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 16C3E7233004D229008A9E4D;
+					};
+					16C3E7433004D22A008A9E4D = {
+						CreatedOnToolsVersion = 26.6;
+						TestTargetID = 16C3E7233004D229008A9E4D;
+					};
+				};
+			};
+			buildConfigurationList = 16C3E71F3004D229008A9E4D /* Build configuration list for PBXProject "mySwiftCoin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16C3E71B3004D229008A9E4D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16C3E7253004D229008A9E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C3E7233004D229008A9E4D /* mySwiftCoin */,
+				16C3E7393004D22A008A9E4D /* mySwiftCoinTests */,
+				16C3E7433004D22A008A9E4D /* mySwiftCoinUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16C3E7223004D229008A9E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7383004D22A008A9E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7423004D22A008A9E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3237A5F2EF105F5CA2E92770 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin/Pods-mySwiftCoin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin/Pods-mySwiftCoin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin/Pods-mySwiftCoin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4098E633DF52764FE10A21E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySwiftCoinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603C2689642D7C91CCBD4709 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySwiftCoin-mySwiftCoinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A146EC60FEF965CEC1124F0F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin-mySwiftCoinUITests/Pods-mySwiftCoin-mySwiftCoinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin-mySwiftCoinUITests/Pods-mySwiftCoin-mySwiftCoinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mySwiftCoin-mySwiftCoinUITests/Pods-mySwiftCoin-mySwiftCoinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEE002B14E8D76F8B16B9328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mySwiftCoin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C3E7203004D229008A9E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7363004D22A008A9E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16C3E7403004D22A008A9E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16C3E73C3004D22A008A9E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C3E7233004D229008A9E4D /* mySwiftCoin */;
+			targetProxy = 16C3E73B3004D22A008A9E4D /* PBXContainerItemProxy */;
+		};
+		16C3E7463004D22A008A9E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16C3E7233004D229008A9E4D /* mySwiftCoin */;
+			targetProxy = 16C3E7453004D22A008A9E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16C3E74E3004D22A008A9E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E3F1890A95BD22DD2F60C8 /* Pods-mySwiftCoin.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RCRXA8736;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySwiftCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16C3E74F3004D22A008A9E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51A99A8F7BCC315685DFAF7 /* Pods-mySwiftCoin.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6RCRXA8736;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = mySwiftCoin/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16C3E7503004D22A008A9E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16C3E7513004D22A008A9E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C3E7533004D22A008A9E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A5BD8B4B8B0E4015D2A2C6 /* Pods-mySwiftCoinTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySwiftCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySwiftCoin";
+			};
+			name = Debug;
+		};
+		16C3E7543004D22A008A9E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBE382E0337A95B4ECD1DA4 /* Pods-mySwiftCoinTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoinTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mySwiftCoin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/mySwiftCoin";
+			};
+			name = Release;
+		};
+		16C3E7563004D22A008A9E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9864C85AA9D53BAC4868C9C /* Pods-mySwiftCoin-mySwiftCoinUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySwiftCoin;
+			};
+			name = Debug;
+		};
+		16C3E7573004D22A008A9E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C890867917EE0E428FAE05E4 /* Pods-mySwiftCoin-mySwiftCoinUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.help.mySwiftCoinUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mySwiftCoin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C3E71F3004D229008A9E4D /* Build configuration list for PBXProject "mySwiftCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C3E7503004D22A008A9E4D /* Debug */,
+				16C3E7513004D22A008A9E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C3E74D3004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C3E74E3004D22A008A9E4D /* Debug */,
+				16C3E74F3004D22A008A9E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C3E7523004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C3E7533004D22A008A9E4D /* Debug */,
+				16C3E7543004D22A008A9E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C3E7553004D22A008A9E4D /* Build configuration list for PBXNativeTarget "mySwiftCoinUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C3E7563004D22A008A9E4D /* Debug */,
+				16C3E7573004D22A008A9E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C3E71C3004D229008A9E4D /* Project object */;
+}

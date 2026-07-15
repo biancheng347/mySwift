@@ -1,0 +1,45 @@
+PODS:
+  - MJRefresh (3.7.9)
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+  - SnapKit (5.7.1)
+  - Stockee (1.3.1)
+  - Then (3.0.0)
+
+DEPENDENCIES:
+  - MJRefresh
+  - RxCocoa
+  - RxSwift
+  - SnapKit
+  - Stockee (from `Vendor/Stockee`)
+  - Then
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - Then
+
+EXTERNAL SOURCES:
+  Stockee:
+    :path: Vendor/Stockee
+
+SPEC CHECKSUMS:
+  MJRefresh: ff9e531227924c84ce459338414550a05d2aea78
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SnapKit: d612e99e678a2d3b95bf60b0705ed0a35c03484a
+  Stockee: 91c525edf4628557ab00d59d0d762d82f07205d4
+  Then: 844265ae87834bbe1147d91d5d41a404da2ec27d
+
+PODFILE CHECKSUM: 4bff2d7a907c4c083f5611e3fe65990f14439628
+
+COCOAPODS: 1.16.2
